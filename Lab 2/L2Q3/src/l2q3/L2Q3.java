@@ -9,7 +9,7 @@ public class L2Q3 {
         int random_int2 = (int)Math.floor(Math.random()*(hrange-mrange+1)+mrange);
         int random_int3 = (int)Math.floor(Math.random()*(hrange-mrange+1)+mrange);
         System.out.println("First generated number: " + random_int1);
-        System.out.println("Seciong generated number: " + random_int2);
+        System.out.println("Second generated number: " + random_int2);
         System.out.println("Third generated number: " + random_int3);
         
         int sum = random_int1 + random_int2 + random_int3;
