@@ -1,6 +1,4 @@
 
-package l5q4;
-
 public class L5Q4
 {
 

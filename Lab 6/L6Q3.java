@@ -1,5 +1,4 @@
 
-package l6q3;
 import java.util.Scanner;
 public class L6Q3
 {

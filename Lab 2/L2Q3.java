@@ -1,4 +1,4 @@
-package l2q3;
+
 import java.util.Random;
 public class L2Q3 {
 

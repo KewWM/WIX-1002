@@ -1,5 +1,4 @@
 
-package mid.rev.pkg1;
 import java.util.Scanner;
 public class MidRev1 
 {

@@ -1,5 +1,4 @@
 
-package l4q5;
 import java.util.Random;
 public class L4Q5 {
 
@@ -11,8 +10,7 @@ public class L4Q5 {
         sum1 += p1;
         sum2 += p2;
         
-        while(sum1 < 100 && sum2 < 100){
-            
+        while(sum1 <= 100 && sum2 <= 100){
             if (p1 == 6){
                 p1 = ya.nextInt(max+min);
                 sum1 += p1;
@@ -21,6 +19,8 @@ public class L4Q5 {
                 p2 = ya.nextInt(max+min);
                 sum2 += p2;
             }
+            if (sum1 > 101 || sum2 > 101)
+                break;
             p1 = ya.nextInt(max+min);
             p2 = ya.nextInt(max+min);
             sum1 += p1;

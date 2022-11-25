@@ -1,5 +1,4 @@
 
-package l3q5;
 import java.util.Scanner;
 public class L3Q5 {
 

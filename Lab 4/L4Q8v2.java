@@ -1,5 +1,4 @@
 
-package l4q8v2;
 import java.util.Random;
 public class L4Q8v2 {
 

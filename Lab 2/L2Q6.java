@@ -1,4 +1,4 @@
-package l2q6;
+
 import java.util.Scanner;
 
 public class L2Q6 {

@@ -1,5 +1,4 @@
 
-package l5q5;
 import java.util.Scanner;
 import java.util.Random;
 public class L5Q5 

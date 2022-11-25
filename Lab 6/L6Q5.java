@@ -1,5 +1,4 @@
 
-package l6q5;
 import java.util.Scanner;
 import java.util.Random;
 public class L6Q5

@@ -1,5 +1,4 @@
 
-package l5q6;
 import java.util.Scanner;
 public class L5Q6 {
 

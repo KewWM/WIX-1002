@@ -1,6 +1,4 @@
 
-package l6q1;
-
 public class L6Q1 
 {
 
