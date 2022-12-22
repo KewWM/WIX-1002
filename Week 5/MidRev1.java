@@ -35,5 +35,12 @@ public class MidRev1
         }
         System.out.println("Final Coordinate (" + x + "," + y + ")");
     }
-    
+    //for (int i = 0; i < move.length(); i++){
+    //char c = move.charAt(i);
+    //switch (c)
+    //  case 'L' -> x--;
+    //  case 'R' -> x++;
+    //  case 'U' -> y--;
+    //  case 'D' -> y++;
+    //}
 }
