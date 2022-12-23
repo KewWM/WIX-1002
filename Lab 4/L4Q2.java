@@ -13,6 +13,8 @@ public class L4Q2 {
             System.out.print(temp + "+");
         }
         System.out.println("\nSum: " + sum);
+        
+        //System.out.println("Sum: " + n + (n + 1));????
     }
     
 }

@@ -14,7 +14,16 @@ public class L4Q1 {
             i++;
         }
         System.out.print((i == num) ? i : i + "\n");
+        System.out.println("");
         // variable = (condition) ? [true] : [false]
+        
+        //Method 2
+        //for (int i = 1; i <= num /2; i++)
+        //{
+        //    if (num % i == 0)
+        //        System.out.print(i + ", ");
+        //    System.out.println(num);
+        //)
     }
     
 }

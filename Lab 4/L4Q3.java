@@ -1,20 +1,23 @@
 
 import java.util.Scanner;
-public class L4Q3 {
+public class L4Q3 
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner ya = new Scanner(System.in);
         int min = 10000, max = 0, sum = 0, time = 0, score2 = 0;
         
         System.out.print("Enter a score [negative score to quit]: ");
         int score = ya.nextInt();
         
-        while (score >= 0){
+        while (score >= 0)
+        {
             sum += score;
             if (score > max)
-                max = score;
-            else
-                min = score;
+                max = score;//max = Math.min(max, score);
+            if (score < min)
+                min = score;//min = Math.min(min, score);
             time++;
             score2 += Math.pow(score,2);
             System.out.print("Enter a score [negative score to quit]: ");
