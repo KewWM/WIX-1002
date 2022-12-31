@@ -15,12 +15,13 @@ public class L7Q2
             URL u = new URL("http://www.fsktm.um.edu.my");
             URLConnection cnn = u.openConnection();
             InputStream stream = cnn.getInputStream();
-            Scanner in = new Scanner(stream);
+            Scanner ya = new Scanner(stream);
             
             PrintWriter yeah = new PrintWriter(new FileOutputStream("index.html"));
-            while (in.hasNextLine())
-                yeah.println(in.nextLine());
+            while (ya.hasNextLine())
+                yeah.println(ya.nextLine());
             yeah.close();
+            //I am groot
         }
 
         catch (IOException e)
