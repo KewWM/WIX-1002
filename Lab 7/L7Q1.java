@@ -11,9 +11,10 @@ public class L7Q1
 {
     public static void main (String [] args)
     {
+        String hi = "C:/Users/User/Documents/NetBeansProjects/Lab 7 file/coursename.dat";
         try
         {
-            ObjectOutputStream walaoIn = new ObjectOutputStream(new FileOutputStream("coursename.dat"));
+            ObjectOutputStream walaoIn = new ObjectOutputStream(new FileOutputStream(hi));
             
             String[] courseCode = new String[4];
             courseCode[0] = "WXES1116";

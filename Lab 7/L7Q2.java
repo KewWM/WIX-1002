@@ -8,25 +8,22 @@ import java.io.PrintWriter;
 
 public class L7Q2 
 {
-    public static void main (String[]args)
+    public static void main(String[] args) 
     {
-        try
-        {
-            URL u = new URL("http://www.fsktm.um.edu.my");
+        try {
+            URL u = new URL("https://fsktm.um.edu.my");
             URLConnection cnn = u.openConnection();
             InputStream stream = cnn.getInputStream();
-            Scanner ya = new Scanner(stream);
-            
-            PrintWriter yeah = new PrintWriter(new FileOutputStream("index.html"));
-            while (ya.hasNextLine())
-                yeah.println(ya.nextLine());
-            yeah.close();
-            //I am groot
-        }
+            Scanner in = new Scanner(stream);
 
-        catch (IOException e)
-        {
-            System.out.println("IO Error: " + e.getMessage());
+            PrintWriter outputStream = new PrintWriter(new FileOutputStream("C:/Users/User/Documents/NetBeansProjects/Lab 7 file/index.htm"));
+            while (in.hasNextLine())
+                outputStream.println(in.nextLine());
+            in.close();
+            outputStream.close();
+        } catch (IOException e) {
+            System.out.println("IO Error:" + e.getMessage());
         }
     }
+
 }
