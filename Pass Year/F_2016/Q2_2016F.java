@@ -8,7 +8,7 @@ public class Q2_2016F
     public static void main(String[] args) 
     {
         Scanner ya = new Scanner(System.in);
-        System.out.print("Enter number of teans: ");
+        System.out.print("Enter number of teams: ");
         int N = ya.nextInt();
         String name[] = new String[N];
         int score[] = new int[N];
