@@ -2,5 +2,5 @@
 Sharing beginner coding based on what we learn in lecture note.                   
 If found any mistake, please let me know ya~ Thanks
 
-THere are also Past Year Question with solution
+There are also Past Year Question with solution
 But, some of them might be imcomplete yet :(
