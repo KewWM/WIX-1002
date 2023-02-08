@@ -105,7 +105,7 @@ public class Q2_2020S1
         double distance = haversine(lat1, long1, lat2, long2);
         System.out.printf("Location 1: %.6f Latitude , %.6f Longitude\n", lat1, long1);
         System.out.printf("Location 2: %.6f Latitude , %.6f Longitude\n", lat2, long2);
-        System.out.printf("Distance: %.2f KM", distance);
+        System.out.printf("Distance: %.2f KM\n", distance);
     }
     
     public static double haversine(double lat1, double lon1, double lat2, double lon2)

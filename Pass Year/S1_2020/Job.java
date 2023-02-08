@@ -6,7 +6,14 @@ public class Job
     protected String job;
     protected int task;
     protected int memory;
-
+    
+    public Job(String job, int task, int memory)
+    {
+        this.job = job;
+        this.task = task;
+        this.memory = memory;
+    }
+        
     public String getJob()
     {
         return job;
@@ -22,17 +29,10 @@ public class Job
         return memory;
     }
 
-    public Job(String job, int task, int memory)
-    {
-        this.job = job;
-        this.task = task;
-        this.memory = memory;
-    }
-
     @Override
     public String toString() 
     {
-        return " + memory {";
+        return String.format("Job Name: %s Memory = %dGB Number of Task = %d", job, memory, task);
     }
   
 }
