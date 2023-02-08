@@ -4,8 +4,6 @@ package S1_2019;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Q4_2019S1
 {
@@ -20,15 +18,26 @@ public class Q4_2019S1
             
             while (in.hasNextLine())
             {
-                String s = in.nextLine();
-                System.out.println(s);
-                Pattern pDot = Pattern.compile(". ");
-                Matcher matcher = pDot.matcher(s);
-                if (matcher.find())
+                String display = in.nextLine();
+                System.out.println(display);
+                String s = display.toUpperCase();
+                for (int round = 0; round < 26; round++)
                 {
-                    numSentence++;
+                    for (int i = 0; i < s.length(); i++)
+                    {
+                        if (s.charAt(i) == alphabet[round])
+                            numAl[round]++;
+                    }
                 }
- 
+                char ch[]= new char[s.length()];     
+                for(int i=0; i < s.length(); i++)  
+                {  
+                    if (s.charAt(i) == '.')
+                        numSentence++;
+                    ch[i]= s.charAt(i);  
+                    if (s.charAt(i) == ' ' || s.charAt(i) == '\n'|| s.charAt(i) == '\t')  
+                        numWord++;  
+                }  
             }
             System.out.println("");
             in.close();
@@ -47,5 +56,6 @@ public class Q4_2019S1
             if (i == 7 | i == 15 | i == 23)
                 System.out.println("");
         }
+        System.out.println("");
     }
 }
